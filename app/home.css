@@ -50,6 +50,15 @@ input {
   color: #000;
   border: 1px solid #000;
   border-radius: 9999px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.getcode:disabled {
+  background-color: #f5f5f5;
+  color: #999;
+  border-color: #ddd;
+  cursor: not-allowed;
 }
 
 .form-error {
@@ -64,4 +73,12 @@ input {
   border-radius: 9999px;
   background-color: black;
   color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.submit-btn:disabled {
+  background-color: #666;
+  color: #ccc;
+  cursor: not-allowed;
 }
